@@ -1,0 +1,22 @@
+var element = document.createElement('div')
+undefined
+element
+<div>​</div>​
+element.innerHTML = 'Hello, DOM!'
+"Hello, DOM!"
+element
+<div>​Hello, DOM!​</div>​
+element.style.backgroundColor
+""
+element.style.backgroundColor = '#f9f9f9';
+"#f9f9f9"
+element
+<div style=​"background-color:​ rgb(249, 249, 249)​;​">​Hello, DOM!​</div>​
+document.body.appendChild(element)
+<div style=​"background-color:​ rgb(249, 249, 249)​;​">​Hello, DOM!​</div>​
+element.style.backgroundColor = '#800000';
+"#800000"
+element.style.backgroundColor = '#02c8a7';
+"#02c8a7"
+element.style.textAlign = 'center';
+"center"
